@@ -7,3 +7,4 @@
 # re-include the files to track
 !*.c
 !.gitignore
+!README.md
