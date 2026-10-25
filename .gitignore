@@ -1,53 +1,9 @@
-# Ignoring all files for a while
-Chapter 2/**/*
-Chapter 3/**/*
-Chapter 4/**/*
-Chapter 5/**/*
-Chapter 6/**/*
-Chapter 7/**/*
-Chapter 8/**/*
-Chapter 9/**/*
-Chapter 10/**/*
-Chapter 11/**/*
-Chapter 12/**/*
-Chapter 13/**/*
-Chapter 14/**/*
-Chapter 15/**/*
-Chapter 16/**/*
-Chapter 17/**/*
-Chapter 18/**/*
-Chapter 19/**/*
-Chapter 20/**/*
-Chapter 21/**/*
-Chapter 22/**/*
-Chapter 23/**/*
-Chapter 24/**/*
-Chapter 25/**/*
-Chapter 26/**/*
+# ignore everything 
+*
 
-#Include only files with extension .c in all folder
-!Chapter 2/**/*.c
-!Chapter 3/**/*.c
-!Chapter 4/**/*.c
-!Chapter 5/**/*.c
-!Chapter 6/**/*.c
-!Chapter 7/**/*.c
-!Chapter 8/**/*.c
-!Chapter 9/**/*.c
-!Chapter 10/**/*.c
-!Chapter 11/**/*.c
-!Chapter 12/**/*.c
-!Chapter 13/**/*.c
-!Chapter 14/**/*.c
-!Chapter 15/**/*.c
-!Chapter 16/**/*.c
-!Chapter 17/**/*.c
-!Chapter 18/**/*.c
-!Chapter 19/**/*.c
-!Chapter 20/**/*.c
-!Chapter 21/**/*.c
-!Chapter 22/**/*.c
-!Chapter 23/**/*.c
-!Chapter 24/**/*.c
-!Chapter 25/**/*.c
-!Chapter 26/**/*.c
+# but let Git descend into every directory
+!*/
+
+# re-include the files to track
+!*.c
+!.gitignore
