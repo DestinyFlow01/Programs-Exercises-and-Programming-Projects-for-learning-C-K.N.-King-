@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(void) {
+	int n; 
+	printf("This program prints a table of squares.\nEnter number of entries in table: "); scanf("%d", &n);
+
+	int i = 1, odd = 3, square; 
+	for(square = 1; i <= n; odd += 2) {
+		printf("%10d%10d\n", i, square);
+		i++;
+		square += odd;
+	}
+}
